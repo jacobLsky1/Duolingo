@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/wordTwins1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_shape_passed"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="word1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/wordTwins4"
+        app:layout_constraintEnd_toStartOf="@+id/wordTwins2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twin3" />
+
+    <TextView
+        android:id="@+id/twin1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_shape_gray"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/twin2"
+        app:layout_constraintEnd_toStartOf="@+id/twinA"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:text="twin1" />
+
+    <TextView
+        android:id="@+id/twinA"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_shape_gray"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/twinB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/twin1"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:text="twinA" />
+
+    <TextView
+        android:id="@+id/twin2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_shape_gray"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/twin3"
+        app:layout_constraintEnd_toEndOf="@+id/twin1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/twin1"
+        app:layout_constraintTop_toBottomOf="@+id/twin1"
+        tools:text="twin2" />
+
+    <TextView
+        android:id="@+id/twin3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_shape_gray"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/wordTwins1"
+        app:layout_constraintEnd_toEndOf="@+id/twin2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/twin2"
+        app:layout_constraintTop_toBottomOf="@+id/twin2"
+        tools:text="twin3" />
+
+    <TextView
+        android:id="@+id/twinB"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_shape_gray"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/twinC"
+        app:layout_constraintEnd_toEndOf="@+id/twinA"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/twinA"
+        app:layout_constraintTop_toBottomOf="@+id/twinA"
+        tools:text="twinB" />
+
+    <TextView
+        android:id="@+id/twinC"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_shape_gray"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/wordTwins3"
+        app:layout_constraintEnd_toEndOf="@+id/twinB"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/twinB"
+        app:layout_constraintTop_toBottomOf="@+id/twinB"
+        tools:text="twinC" />
+
+    <TextView
+        android:id="@+id/wordTwins3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_shape_passed"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="word3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/wordTwins2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wordTwins2"
+        app:layout_constraintTop_toTopOf="@+id/wordTwins2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/wordTwins2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_shape_passed"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="word2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/wordTwins1"
+        app:layout_constraintEnd_toStartOf="@+id/wordTwins3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wordTwins1"
+        app:layout_constraintTop_toTopOf="@+id/wordTwins1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/wordTwins4"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape_passed"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="word4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/resultLayoutTwins"
+        app:layout_constraintEnd_toStartOf="@+id/wordTwins5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wordTwins1" />
+
+    <TextView
+        android:id="@+id/wordTwins5"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_shape_passed"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="word5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/wordTwins4"
+        app:layout_constraintEnd_toStartOf="@+id/wordTwins6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wordTwins4"
+        app:layout_constraintTop_toTopOf="@+id/wordTwins4" />
+
+    <TextView
+        android:id="@+id/wordTwins6"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_shape_passed"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="word6"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/wordTwins5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wordTwins5"
+        app:layout_constraintTop_toTopOf="@+id/wordTwins5" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Match The Words"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentLessonLessonNameTwins" />
+
+    <TextView
+        android:id="@+id/fragmentLessonLessonNameTwins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:text="Lesson no': 1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/resultLayoutTwins"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/word5A">
+
+        <TextView
+            android:id="@+id/answerResultTVTwins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="textView" />
+
+
+        <Button
+            android:id="@+id/checkAnswerButtonTwins"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_shape_green"
+            android:enabled="true"
+            android:text="check"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text=" א "
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:text=" A "
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "680382631994",
+    "project_id": "duolingo-demo-jl",
+    "storage_bucket": "duolingo-demo-jl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680382631994:android:2f6edbf413b880ff9fe503",
+        "android_client_info": {
+          "package_name": "com.jacoblip.andriod.duolingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680382631994-1sd53di9u4tld5gbktfjsshgdt52s37r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5KQT0yr2m6oOXRgNh_NfSkuAO4kM_6iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680382631994-1sd53di9u4tld5gbktfjsshgdt52s37r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

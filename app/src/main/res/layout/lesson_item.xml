@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/lessonIconBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+ >
+<FrameLayout
+    android:id="@+id/lessonPassedCircle"
+    android:layout_width="110dp"
+    android:layout_height="110dp"
+    android:paddingTop="5dp"
+    android:background="@drawable/button_shape_gray"
+    app:layout_constraintBottom_toTopOf="@+id/fragmentLessonLessonName"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+    <FrameLayout
+        android:id="@+id/lessonStageCircle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_shape_green"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/lessonIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/doulingo_app_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+    </FrameLayout>
+</FrameLayout>
+
+
+    <TextView
+        android:id="@+id/fragmentLessonLessonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lessonPassedCircle"
+        tools:text="TextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
